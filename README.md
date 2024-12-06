@@ -44,12 +44,14 @@ pip install -r requirements.txt
    - Ask another question.
    - Exit the chatbot.
 
-### Example Query
-#User query:
-> How many 'r's are in the word 'strawberry'?
+### Example Query:
+##Prompt:
+```markdown
+How many 'r's are in the word 'strawberry'?
+```
 
-#Reasoning:
-```bash
+##Reasoning:
+```markdown
 Step 1:
 To determine how many 'r's are in the word 'strawberry', the first step is to analyze the spelling of the word itself. 
 
@@ -73,8 +75,10 @@ Now, let's tally them up.
 
 **DECISION: STOP**: The counting process has concluded, and we have identified that there are a total of **three 'r's** in the word 'strawberry'.
 ```
-#Output:
-> There are three 'r's in the word 'strawberry'.
+##Output:
+```markdown
+There are three 'r's in the word 'strawberry'.
+```
 
 ---
 
