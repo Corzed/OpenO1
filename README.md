@@ -17,7 +17,7 @@ Welcome to **OpenO1**, a self-reasoning AI chatbot that breaks down complex quer
 
 To set up **OpenO1** locally, follow these steps:
 
-\```bash
+```bash
 # Clone the repository
 git clone https://github.com/your-username/OpenO1.git
 
@@ -26,7 +26,7 @@ cd OpenO1
 
 # Install the required dependencies
 pip install -r requirements.txt
-\```
+```
 
 ---
 
@@ -45,11 +45,36 @@ pip install -r requirements.txt
    - Exit the chatbot.
 
 ### Example Query
-User query:
+#User query:
 > How many 'r's are in the word 'strawberry'?
 
-Output:
-FINAL ANSWER: There are three 'r's in the word 'strawberry'.
+#Reasoning:
+```bash
+Step 1:
+To determine how many 'r's are in the word 'strawberry', the first step is to analyze the spelling of the word itself. 
+
+1. **Identify the letters in 'strawberry'**:  
+   The word 'strawberry' consists of the following letters: s, t, r, a, w, b, e, r, r, y.
+
+Next, I will count the occurrences of the letter 'r' in this list.
+
+**DECISION: CONTINUE**: The next step is to count how many times the letter 'r' appears in the word 'strawberry'.
+
+Step 2:
+Now, I will count the occurrences of the letter 'r' in the word 'strawberry':
+
+2. **Count the 'r's**:  
+   In the spelling: s, t, **r**, a, w, b, **e**, **r**, **r**, y, we can identify the positions of the 'r's:
+   - The first 'r' appears after 't' in the third position.
+   - The second 'r' appears after 'e' in the seventh position.
+   - The third 'r' appears after the second 'r' in the eighth position.
+
+Now, let's tally them up. 
+
+**DECISION: STOP**: The counting process has concluded, and we have identified that there are a total of **three 'r's** in the word 'strawberry'.
+```
+#Output:
+> There are three 'r's in the word 'strawberry'.
 
 ---
 
@@ -64,9 +89,9 @@ FINAL ANSWER: There are three 'r's in the word 'strawberry'.
 ## ⚙️ Configuration
 
 - **Environment Variable**: Set your OpenAI API key as an environment variable:
-  \```bash
+  ```bash
   export OPENAI_API_KEY='your-api-key'
-  \```
+  ```
 
 - **Default Model**: `gpt-4o-mini` (can be changed in the script).
 
