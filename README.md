@@ -114,12 +114,6 @@ This project is licensed under the GPL-3.0 License. See the [LICENSE](LICENSE) f
 
 ---
 
-## 🧠 Acknowledgments
-
-Special thanks to OpenAI for providing the technology powering OpenO1.
-
----
-
 ### Questions or Feedback?
 
 Feel free to open an issue!
