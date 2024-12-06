@@ -175,7 +175,7 @@ def main():
     """
     Main function to run the chatbot in a loop for continuous user interaction.
     """
-    print("Welcome to the Enhanced Self-Reasoning AI Chatbot!")
+    print("Welcome to the OpenO1 Chatbot!")
     print("Type 'exit' to quit the program.")
     while True:
         query = input("\nEnter your query: ").strip()
