@@ -34,9 +34,9 @@ pip install -r requirements.txt
 
 ### Running OpenO1
 1. **Start OpenO1**:
-   \```bash
+   ```bash
    python OpenO1.py
-   \```
+   ```
 2. **Enter your query**: Type your question and let OpenO1 process it.
 3. **Interactive Post-Query Options**:
    - Review the thought process.
@@ -45,12 +45,12 @@ pip install -r requirements.txt
    - Exit the chatbot.
 
 ### Example Query:
-##Prompt:
+# Prompt:
 ```markdown
 How many 'r's are in the word 'strawberry'?
 ```
 
-##Reasoning:
+# Reasoning:
 ```markdown
 Step 1:
 To determine how many 'r's are in the word 'strawberry', the first step is to analyze the spelling of the word itself. 
@@ -75,7 +75,8 @@ Now, let's tally them up.
 
 **DECISION: STOP**: The counting process has concluded, and we have identified that there are a total of **three 'r's** in the word 'strawberry'.
 ```
-##Output:
+
+# Output:
 ```markdown
 There are three 'r's in the word 'strawberry'.
 ```
