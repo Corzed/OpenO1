@@ -1,6 +1,6 @@
-# OpenO1 Chatbot
+# OpenO1
 
-Welcome to **OpenO1**, a self-reasoning AI chatbot that breaks down complex queries into logical, step-by-step reasoning to deliver precise and insightful answers. This README explains the features, setup, and usage of OpenO1.
+Welcome to **OpenO1**, an open-source self-reasoning AI chatbot (not $200 per month :O) that breaks down complex queries into logical, step-by-step reasoning to deliver precise and insightful answers.
 
 ---
 
@@ -8,8 +8,7 @@ Welcome to **OpenO1**, a self-reasoning AI chatbot that breaks down complex quer
 
 1. **Step-by-Step Reasoning**: OpenO1 constructs logical reasoning steps to tackle queries systematically.
 2. **Interactive Logging**: Every reasoning step is logged and available for review.
-3. **Error-Resilient Design**: Handles issues gracefully for a smooth user experience.
-4. **Final Answer Generation**: Leverages reasoning steps to craft clear and concise answers.
+4. **Final Answer Generation**: The final result is generated with the Reasoning file as context to the request.
 
 ---
 
@@ -45,12 +44,12 @@ pip install -r requirements.txt
    - Exit the chatbot.
 
 ### Example Query:
-# Prompt:
+Prompt:
 ```markdown
 How many 'r's are in the word 'strawberry'?
 ```
 
-# Reasoning:
+Reasoning:
 ```markdown
 Step 1:
 To determine how many 'r's are in the word 'strawberry', the first step is to analyze the spelling of the word itself. 
@@ -76,7 +75,7 @@ Now, let's tally them up.
 **DECISION: STOP**: The counting process has concluded, and we have identified that there are a total of **three 'r's** in the word 'strawberry'.
 ```
 
-# Output:
+Output:
 ```markdown
 There are three 'r's in the word 'strawberry'.
 ```
