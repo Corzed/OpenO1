@@ -18,13 +18,10 @@ To set up **OpenO1** locally, follow these steps:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/OpenO1.git
+git clone https://github.com/Corzed/OpenO1.git
 
 # Navigate to the project directory
 cd OpenO1
-
-# Install the required dependencies
-pip install -r requirements.txt
 ```
 
 ---
