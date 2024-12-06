@@ -22,6 +22,9 @@ git clone https://github.com/Corzed/OpenO1.git
 
 # Navigate to the project directory
 cd OpenO1
+
+# Run the application
+python o1.py
 ```
 
 ---
