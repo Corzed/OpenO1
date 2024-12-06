@@ -122,5 +122,5 @@ Special thanks to OpenAI for providing the technology powering OpenO1.
 
 ### Questions or Feedback?
 
-Feel free to open an issue or contact the repository maintainer.
+Feel free to open an issue!
 
